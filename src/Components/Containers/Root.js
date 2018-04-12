@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Test from '../Test';
+import Jimmy from '../Jimmy';
 import '../Styles/test.css';
 
 class Root extends Component {
@@ -19,6 +20,7 @@ class Root extends Component {
         {this.state.test}
 
         <Test />
+        <Jimmy />
       </div>
     );
   }
